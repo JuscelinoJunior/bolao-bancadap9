@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: bolao-copa-2026
+    runtime: python
+    buildCommand: ""
+    startCommand: python3 server.py
+    envVars:
+      - key: DB_PATH
+        value: /data/bolao.db
+    disk:
+      name: bolao-db
+      mountPath: /data
+      sizeGB: 1
