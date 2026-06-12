@@ -55,10 +55,10 @@ function apiFetch(path, options = {}) {
 
 // ── SESSION ──────────────────────────────────────────────────────────────────
 
-function getSessionUser()  { return sessionStorage.getItem('bolao_current_user'); }
-function getSessionToken() { return sessionStorage.getItem('bolao_token'); }
-function setSession(u, t)  { sessionStorage.setItem('bolao_current_user', u); sessionStorage.setItem('bolao_token', t); }
-function clearSession()    { sessionStorage.removeItem('bolao_current_user'); sessionStorage.removeItem('bolao_token'); }
+function getSessionUser()  { return localStorage.getItem('bolao_current_user'); }
+function getSessionToken() { return localStorage.getItem('bolao_token'); }
+function setSession(u, t)  { localStorage.setItem('bolao_current_user', u); localStorage.setItem('bolao_token', t); }
+function clearSession()    { localStorage.removeItem('bolao_current_user'); localStorage.removeItem('bolao_token'); }
 
 // ── TOAST ────────────────────────────────────────────────────────────────────
 
