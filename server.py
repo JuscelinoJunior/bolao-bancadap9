@@ -10,6 +10,10 @@ from urllib.parse import parse_qs, urlparse
 
 DB_FILENAME = os.environ.get('DB_PATH', 'bolao.db')
 PORT = int(os.environ.get('PORT', 8000))
+
+_db_dir = os.path.dirname(DB_FILENAME)
+if _db_dir:
+    os.makedirs(_db_dir, exist_ok=True)
 # senha universal do bolão (altere aqui para sua senha)
 POOL_CODE = 'CrvgP9@2026!'
 
