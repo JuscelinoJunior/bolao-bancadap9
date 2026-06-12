@@ -1091,7 +1091,7 @@ body {
   }
 
   /* Limita ranking a 3 linhas no painel — botão abre modal */
-  .ranking-table tbody .rank-extra {
+  .ranking-panel .ranking-table tbody .rank-extra {
     display: none;
   }
 
