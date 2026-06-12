@@ -19,7 +19,7 @@ POOL_CODE = 'CrvgP9@2026!'
 
 MATCHES = [
     {'id': 1, 'group': 'Grupo A', 'home': 'México', 'away': 'África do Sul', 'date': '2026-06-11T16:00:00', 'result': {'home': 2, 'away': 0}},
-    {'id': 2, 'group': 'Grupo A', 'home': 'Coreia do Sul', 'away': 'República Tcheca', 'date': '2026-06-11T23:00:00', 'result': None},
+    {'id': 2, 'group': 'Grupo A', 'home': 'Coreia do Sul', 'away': 'República Tcheca', 'date': '2026-06-11T23:00:00', 'result': {'home': 2, 'away': 1}},
     {'id': 3, 'group': 'Grupo B', 'home': 'Canadá', 'away': 'Bósnia', 'date': '2026-06-12T16:00:00', 'result': None},
     {'id': 4, 'group': 'Grupo D', 'home': 'Estados Unidos', 'away': 'Paraguai', 'date': '2026-06-12T22:00:00', 'result': None},
     {'id': 5, 'group': 'Grupo B', 'home': 'Catar', 'away': 'Suíça', 'date': '2026-06-13T16:00:00', 'result': None},
