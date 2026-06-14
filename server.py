@@ -26,7 +26,7 @@ MATCHES = [
     {'id': 6, 'group': 'Grupo C', 'home': 'Brasil', 'away': 'Marrocos', 'date': '2026-06-13T19:00:00', 'result': {'home': 1, 'away': 1}},
     {'id': 7, 'group': 'Grupo C', 'home': 'Haiti', 'away': 'Escócia', 'date': '2026-06-13T22:00:00', 'result': {'home': 0, 'away': 1}},
     {'id': 8, 'group': 'Grupo D', 'home': 'Austrália', 'away': 'Turquia', 'date': '2026-06-14T01:00:00', 'result': {'home': 2, 'away': 0}},
-    {'id': 9, 'group': 'Grupo E', 'home': 'Alemanha', 'away': 'Curaçao', 'date': '2026-06-14T14:00:00', 'result': None},
+    {'id': 9, 'group': 'Grupo E', 'home': 'Alemanha', 'away': 'Curaçao', 'date': '2026-06-14T14:00:00', 'result': {'home': 7, 'away': 1}},
     {'id': 10, 'group': 'Grupo F', 'home': 'Holanda', 'away': 'Japão', 'date': '2026-06-14T17:00:00', 'result': None},
     {'id': 11, 'group': 'Grupo E', 'home': 'Costa do Marfim', 'away': 'Equador', 'date': '2026-06-14T20:00:00', 'result': None},
     {'id': 12, 'group': 'Grupo F', 'home': 'Suécia', 'away': 'Tunísia', 'date': '2026-06-14T23:00:00', 'result': None},
