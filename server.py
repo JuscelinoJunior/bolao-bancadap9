@@ -28,7 +28,7 @@ MATCHES = [
     {'id': 8, 'group': 'Grupo D', 'home': 'Austrália', 'away': 'Turquia', 'date': '2026-06-14T01:00:00', 'result': {'home': 2, 'away': 0}},
     {'id': 9, 'group': 'Grupo E', 'home': 'Alemanha', 'away': 'Curaçao', 'date': '2026-06-14T14:00:00', 'result': {'home': 7, 'away': 1}},
     {'id': 10, 'group': 'Grupo F', 'home': 'Holanda', 'away': 'Japão', 'date': '2026-06-14T17:00:00', 'result': {'home': 2, 'away': 2}},
-    {'id': 11, 'group': 'Grupo E', 'home': 'Costa do Marfim', 'away': 'Equador', 'date': '2026-06-14T20:00:00', 'result': None},
+    {'id': 11, 'group': 'Grupo E', 'home': 'Costa do Marfim', 'away': 'Equador', 'date': '2026-06-14T20:00:00', '{'home': 1, 'away': 0},
     {'id': 12, 'group': 'Grupo F', 'home': 'Suécia', 'away': 'Tunísia', 'date': '2026-06-14T23:00:00', 'result': None},
     {'id': 13, 'group': 'Grupo H', 'home': 'Espanha', 'away': 'Cabo Verde', 'date': '2026-06-15T13:00:00', 'result': None},
     {'id': 14, 'group': 'Grupo G', 'home': 'Bélgica', 'away': 'Egito', 'date': '2026-06-15T16:00:00', 'result': None},
