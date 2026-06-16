@@ -34,7 +34,7 @@ MATCHES = [
     {'id': 14, 'group': 'Grupo G', 'home': 'Bélgica', 'away': 'Egito', 'date': '2026-06-15T16:00:00', 'result': {'home': 1, 'away': 1}},
     {'id': 15, 'group': 'Grupo H', 'home': 'Arábia Saudita', 'away': 'Uruguai', 'date': '2026-06-15T19:00:00', 'result': {'home': 1, 'away': 1}},
     {'id': 16, 'group': 'Grupo G', 'home': 'Irã', 'away': 'Nova Zelândia', 'date': '2026-06-15T22:00:00', 'result': {'home': 2, 'away': 2}},
-    {'id': 17, 'group': 'Grupo I', 'home': 'França', 'away': 'Senegal', 'date': '2026-06-16T16:00:00', 'result': None},
+    {'id': 17, 'group': 'Grupo I', 'home': 'França', 'away': 'Senegal', 'date': '2026-06-16T16:00:00', 'result': {'home': 3, 'away': 1}},
     {'id': 18, 'group': 'Grupo I', 'home': 'Iraque', 'away': 'Noruega', 'date': '2026-06-16T19:00:00', 'result': None},
     {'id': 19, 'group': 'Grupo J', 'home': 'Argentina', 'away': 'Argélia', 'date': '2026-06-16T22:00:00', 'result': None},
     {'id': 20, 'group': 'Grupo J', 'home': 'Áustria', 'away': 'Jordânia', 'date': '2026-06-17T01:00:00', 'result': None},
