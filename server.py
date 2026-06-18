@@ -41,10 +41,10 @@ MATCHES = [
     {'id': 21, 'group': 'Grupo K', 'home': 'Portugal', 'away': 'RD Congo', 'date': '2026-06-17T14:00:00', 'result': {'home': 1, 'away': 1}},
     {'id': 22, 'group': 'Grupo L', 'home': 'Inglaterra', 'away': 'Croácia', 'date': '2026-06-17T17:00:00', 'result': {'home': 4, 'away': 2}},
     {'id': 23, 'group': 'Grupo L', 'home': 'Gana', 'away': 'Panamá', 'date': '2026-06-17T20:00:00', 'result': {'home': 1, 'away': 0}},
-    {'id': 24, 'group': 'Grupo K', 'home': 'Uzbequistão', 'away': 'Colômbia', 'date': '2026-06-17T23:00:00', 'result': None},
+    {'id': 24, 'group': 'Grupo K', 'home': 'Uzbequistão', 'away': 'Colômbia', 'date': '2026-06-17T23:00:00', 'result': {'home': 1, 'away': 2}},
     # Rodada 2
-    {'id': 25, 'group': 'Grupo A', 'home': 'República Tcheca', 'away': 'África do Sul', 'date': '2026-06-18T13:00:00', 'result': None},
-    {'id': 26, 'group': 'Grupo B', 'home': 'Suíça', 'away': 'Bósnia', 'date': '2026-06-18T16:00:00', 'result': None},
+    {'id': 25, 'group': 'Grupo A', 'home': 'República Tcheca', 'away': 'África do Sul', 'date': '2026-06-18T13:00:00', 'result': {'home': 1, 'away': 1}},
+    {'id': 26, 'group': 'Grupo B', 'home': 'Suíça', 'away': 'Bósnia', 'date': '2026-06-18T16:00:00', 'result': {'home': 4, 'away': 1}},
     {'id': 27, 'group': 'Grupo B', 'home': 'Canadá', 'away': 'Catar', 'date': '2026-06-18T19:00:00', 'result': None},
     {'id': 28, 'group': 'Grupo A', 'home': 'México', 'away': 'Coreia do Sul', 'date': '2026-06-18T22:00:00', 'result': None},
     {'id': 29, 'group': 'Grupo D', 'home': 'Estados Unidos', 'away': 'Austrália', 'date': '2026-06-19T16:00:00', 'result': None},
