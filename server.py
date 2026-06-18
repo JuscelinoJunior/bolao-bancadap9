@@ -38,9 +38,9 @@ MATCHES = [
     {'id': 18, 'group': 'Grupo I', 'home': 'Iraque', 'away': 'Noruega', 'date': '2026-06-16T19:00:00', 'result': {'home': 1, 'away': 4}},
     {'id': 19, 'group': 'Grupo J', 'home': 'Argentina', 'away': 'Argélia', 'date': '2026-06-16T22:00:00', 'result': {'home': 3, 'away': 0}},
     {'id': 20, 'group': 'Grupo J', 'home': 'Áustria', 'away': 'Jordânia', 'date': '2026-06-17T01:00:00', 'result': {'home': 3, 'away': 1}},
-    {'id': 21, 'group': 'Grupo K', 'home': 'Portugal', 'away': 'RD Congo', 'date': '2026-06-17T14:00:00', 'result': None},
-    {'id': 22, 'group': 'Grupo L', 'home': 'Inglaterra', 'away': 'Croácia', 'date': '2026-06-17T17:00:00', 'result': None},
-    {'id': 23, 'group': 'Grupo L', 'home': 'Gana', 'away': 'Panamá', 'date': '2026-06-17T20:00:00', 'result': None},
+    {'id': 21, 'group': 'Grupo K', 'home': 'Portugal', 'away': 'RD Congo', 'date': '2026-06-17T14:00:00', 'result': {'home': 1, 'away': 1}},
+    {'id': 22, 'group': 'Grupo L', 'home': 'Inglaterra', 'away': 'Croácia', 'date': '2026-06-17T17:00:00', 'result': {'home': 4, 'away': 2}},
+    {'id': 23, 'group': 'Grupo L', 'home': 'Gana', 'away': 'Panamá', 'date': '2026-06-17T20:00:00', 'result': {'home': 1, 'away': 0}},
     {'id': 24, 'group': 'Grupo K', 'home': 'Uzbequistão', 'away': 'Colômbia', 'date': '2026-06-17T23:00:00', 'result': None},
     # Rodada 2
     {'id': 25, 'group': 'Grupo A', 'home': 'República Tcheca', 'away': 'África do Sul', 'date': '2026-06-18T13:00:00', 'result': None},
