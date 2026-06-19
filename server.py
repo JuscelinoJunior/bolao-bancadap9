@@ -45,7 +45,7 @@ MATCHES = [
     # Rodada 2
     {'id': 25, 'group': 'Grupo A', 'home': 'República Tcheca', 'away': 'África do Sul', 'date': '2026-06-18T13:00:00', 'result': {'home': 1, 'away': 1}},
     {'id': 26, 'group': 'Grupo B', 'home': 'Suíça', 'away': 'Bósnia', 'date': '2026-06-18T16:00:00', 'result': {'home': 4, 'away': 1}},
-    {'id': 27, 'group': 'Grupo B', 'home': 'Canadá', 'away': 'Catar', 'date': '2026-06-18T19:00:00', 'result': None},
+    {'id': 27, 'group': 'Grupo B', 'home': 'Canadá', 'away': 'Catar', 'date': '2026-06-18T19:00:00', 'result': {'home': 6, 'away': 0}},
     {'id': 28, 'group': 'Grupo A', 'home': 'México', 'away': 'Coreia do Sul', 'date': '2026-06-18T22:00:00', 'result': None},
     {'id': 29, 'group': 'Grupo D', 'home': 'Estados Unidos', 'away': 'Austrália', 'date': '2026-06-19T16:00:00', 'result': None},
     {'id': 30, 'group': 'Grupo C', 'home': 'Escócia', 'away': 'Marrocos', 'date': '2026-06-19T19:00:00', 'result': None},
