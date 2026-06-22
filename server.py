@@ -57,7 +57,7 @@ MATCHES = [
     {'id': 36, 'group': 'Grupo F', 'home': 'Tunísia', 'away': 'Japão', 'date': '2026-06-21T01:00:00', 'result': {'home': 0, 'away': 4}},
     {'id': 37, 'group': 'Grupo H', 'home': 'Espanha', 'away': 'Arábia Saudita', 'date': '2026-06-21T13:00:00', 'result': {'home': 4, 'away': 0}},
     {'id': 38, 'group': 'Grupo G', 'home': 'Bélgica', 'away': 'Irã', 'date': '2026-06-21T16:00:00', 'result': {'home': 0, 'away': 0}},
-    {'id': 39, 'group': 'Grupo H', 'home': 'Uruguai', 'away': 'Cabo Verde', 'date': '2026-06-21T19:00:00', 'result': None},
+    {'id': 39, 'group': 'Grupo H', 'home': 'Uruguai', 'away': 'Cabo Verde', 'date': '2026-06-21T19:00:00', 'result': {'home': 2, 'away': 2}},
     {'id': 40, 'group': 'Grupo G', 'home': 'Nova Zelândia', 'away': 'Egito', 'date': '2026-06-21T22:00:00', 'result': None},
     {'id': 41, 'group': 'Grupo J', 'home': 'Argentina', 'away': 'Áustria', 'date': '2026-06-22T14:00:00', 'result': None},
     {'id': 42, 'group': 'Grupo I', 'home': 'França', 'away': 'Iraque', 'date': '2026-06-22T18:00:00', 'result': None},
