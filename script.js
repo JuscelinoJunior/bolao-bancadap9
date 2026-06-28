@@ -36,6 +36,10 @@ const closeRankingModalBtn = document.getElementById('closeRankingModalBtn');
 const rankingModalBody = document.getElementById('rankingModalBody');
 
 let currentFilter = 'all';
+let currentPhase = 'knockout';
+let allSortedMatches = [];
+let allPredictions = [];
+let currentUsername = null;
 
 let rankingRefreshInterval = null;
 
@@ -110,6 +114,16 @@ function getMatchWinner(result) {
 
 function flag(teamName) {
   return TEAM_FLAGS[teamName] || '🏳';
+}
+
+function getMatchPhase(match) {
+  return match.group.startsWith('Grupo ') ? 'groups' : 'knockout';
+}
+
+function renderCurrentPhase() {
+  const filtered = allSortedMatches.filter(m => getMatchPhase(m) === currentPhase);
+  renderMatchesList(filtered, currentUsername, allPredictions);
+  applyMatchFilter();
 }
 
 // ── MATCH CARD ───────────────────────────────────────────────────────────────
@@ -323,13 +337,14 @@ async function renderDashboard(username) {
     apiFetch('/api/ranking')
   ]);
 
-  const sorted = [...matchesData.matches].sort((a, b) => new Date(a.date) - new Date(b.date));
-  const predictions = predictionsData.predictions;
+  allSortedMatches = [...matchesData.matches].sort((a, b) => new Date(a.date) - new Date(b.date));
+  allPredictions = predictionsData.predictions;
+  currentUsername = username;
 
   // Calculate user stats
   let points = 0;
-  predictions.forEach(p => {
-    const m = sorted.find(x => x.id === p.matchId);
+  allPredictions.forEach(p => {
+    const m = allSortedMatches.find(x => x.id === p.matchId);
     if (m && m.result && getMatchStatus(m).type === 'done') {
       if (getMatchWinner(m.result) === p.choice) points++;
     }
@@ -338,10 +353,9 @@ async function renderDashboard(username) {
   document.getElementById('userPointsChip').textContent =
     `${points} ${points === 1 ? 'ponto' : 'pontos'}`;
   document.getElementById('userPredictionsChip').textContent =
-    `${predictions.length} ${predictions.length === 1 ? 'palpite' : 'palpites'}`;
+    `${allPredictions.length} ${allPredictions.length === 1 ? 'palpite' : 'palpites'}`;
 
-  renderMatchesList(sorted, username, predictions);
-  applyMatchFilter();
+  renderCurrentPhase();
   renderRankingTable(rankingData.ranking, username);
 }
 
@@ -384,6 +398,17 @@ document.addEventListener('keydown', e => {
     closeModal();
     rankingModal.classList.add('hidden');
   }
+});
+
+// ── TOGGLE DE FASE ──────────────────────────────────────────────────────────
+
+document.querySelectorAll('.phase-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.phase-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentPhase = btn.dataset.phase;
+    renderCurrentPhase();
+  });
 });
 
 // ── FILTRO DE JOGOS ──────────────────────────────────────────────────────────

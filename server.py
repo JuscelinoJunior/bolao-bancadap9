@@ -92,6 +92,23 @@ MATCHES = [
     {'id': 70, 'group': 'Grupo K', 'home': 'Colômbia', 'away': 'Portugal', 'date': '2026-06-27T20:30:00', 'result': {'home': 0, 'away': 0}},
     {'id': 71, 'group': 'Grupo J', 'home': 'Jordânia', 'away': 'Argentina', 'date': '2026-06-27T23:00:00', 'result': {'home': 1, 'away': 3}},
     {'id': 72, 'group': 'Grupo J', 'home': 'Argélia', 'away': 'Áustria', 'date': '2026-06-27T23:00:00', 'result': {'home': 3, 'away': 3}},
+    # Rodada de 32
+    {'id': 73, 'group': 'Rodada de 32', 'home': 'África do Sul', 'away': 'Canadá', 'date': '2026-06-28T16:00:00', 'result': None},
+    {'id': 74, 'group': 'Rodada de 32', 'home': 'Brasil', 'away': 'Japão', 'date': '2026-06-29T14:00:00', 'result': None},
+    {'id': 75, 'group': 'Rodada de 32', 'home': 'Alemanha', 'away': 'Paraguai', 'date': '2026-06-29T17:30:00', 'result': None},
+    {'id': 76, 'group': 'Rodada de 32', 'home': 'Holanda', 'away': 'Marrocos', 'date': '2026-06-29T22:00:00', 'result': None},
+    {'id': 77, 'group': 'Rodada de 32', 'home': 'Costa do Marfim', 'away': 'Noruega', 'date': '2026-06-30T14:00:00', 'result': None},
+    {'id': 78, 'group': 'Rodada de 32', 'home': 'França', 'away': 'Suécia', 'date': '2026-06-30T18:00:00', 'result': None},
+    {'id': 79, 'group': 'Rodada de 32', 'home': 'México', 'away': 'Equador', 'date': '2026-06-30T22:00:00', 'result': None},
+    {'id': 80, 'group': 'Rodada de 32', 'home': 'Inglaterra', 'away': 'RD Congo', 'date': '2026-07-01T13:00:00', 'result': None},
+    {'id': 81, 'group': 'Rodada de 32', 'home': 'Bélgica', 'away': 'Senegal', 'date': '2026-07-01T17:00:00', 'result': None},
+    {'id': 82, 'group': 'Rodada de 32', 'home': 'Estados Unidos', 'away': 'Bósnia', 'date': '2026-07-01T21:00:00', 'result': None},
+    {'id': 83, 'group': 'Rodada de 32', 'home': 'Espanha', 'away': 'Áustria', 'date': '2026-07-02T16:00:00', 'result': None},
+    {'id': 84, 'group': 'Rodada de 32', 'home': 'Portugal', 'away': 'Croácia', 'date': '2026-07-02T20:00:00', 'result': None},
+    {'id': 85, 'group': 'Rodada de 32', 'home': 'Suíça', 'away': 'Argélia', 'date': '2026-07-03T00:00:00', 'result': None},
+    {'id': 86, 'group': 'Rodada de 32', 'home': 'Austrália', 'away': 'Egito', 'date': '2026-07-03T15:00:00', 'result': None},
+    {'id': 87, 'group': 'Rodada de 32', 'home': 'Argentina', 'away': 'Cabo Verde', 'date': '2026-07-03T19:00:00', 'result': None},
+    {'id': 88, 'group': 'Rodada de 32', 'home': 'Colômbia', 'away': 'Gana', 'date': '2026-07-03T22:30:00', 'result': None},
 ]
 
 
